@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin-top: 35px;
+	text-align: center;
+}
+
+nav, footer {
+	background-color: gray;
+	border: 1px black solid;
+}
+
+nav {
+	display: inline-block;
+	text-align: left;
+	position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  font-size: 16px
+}
+
+nav button {
+	float: right;
+}
+
+section {
+	border: black solid 1px
+}
+
+header {
+	padding: 35px 15px;
+	background-color: lightgray;
+}
+
+.recipe {
+	border: 1px black solid;
+	margin: 10px;
+}
+
+.ingredients, .instructions, .food-image{
+	border: 1px black solid;
+	text-align: left;
+}
+
+li {
+	display: inline-block;
+}
+
+.alternatives {
+	display: inline-block;
+}
+
+.alternatives li {
+	border: 1px black solid;
+	padding: 3px;
+}
+
+.top {
+	display: inline-block;
+	width: 100%;
+}
+
+.food-image, .ingredients {
+	width: 50%;
+	float: left;
+}
+
+
